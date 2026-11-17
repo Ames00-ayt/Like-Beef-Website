@@ -1,0 +1,92 @@
+.title {
+    color: green;
+}
+
+html{
+    background-image: url(Photos/beef-bg-texture-1.jpg);
+    background-size:cover;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
+#contents{
+    
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+h1{
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Impact;
+    
+}
+h2{
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Haettenschweiler;
+}
+
+h3{ color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+    font-family: times;
+}
+
+
+.boxes{
+    color: white;
+    font-family:arial;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto; /* centers the iframe horizontally */
+}
+.video {
+    width: 60%;
+    padding:30px;
+   
+}
+
+.centre{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+#footer{
+    color:white;
+   
+}
