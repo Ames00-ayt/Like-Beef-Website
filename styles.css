@@ -13,24 +13,28 @@
 
 /* these are the backgrounds*/
 .home{
-    background-image: url(beef-bg-2.jpg);
+    background-image: url(Photos/beef-bg-2.jpg);
     background-size:cover;
 }
 
 .epk{
-    background-image: url(beef-bg-3.jpg);
+    background-image: url(Photos/beef-bg-3.jpg);
     background-size:cover;
 }
 
 .contact-pg{
-    background-image: url(beef_loox.jpg);
+    background-image: url(Photos/beef_loox.jpg);
     background-size: cover;
 }
 
-/* end section */
+/* Link Styles */
 
 a:link {
     color: rebeccapurple;
+}
+
+a.fa:link {
+    color: #ececec;
 }
 
 /* mouse over link */
@@ -38,6 +42,11 @@ a:hover {
   color: green;
 }
 
+a:link:hover {
+  color: #01d401;
+}
+
+/* Nav Bar Styles */
 
 ul {
   list-style-type: none;
@@ -64,7 +73,7 @@ ul li a:hover {
   background-color: #111111;
 }
 
-/* all body relevent styles */
+/* all Body-Relevent styles */
 #contents{
     
     padding: 10px;
@@ -99,13 +108,17 @@ h3{ color:white;
 
 p{
     text-align: center;
+}
 
-    
+.fade-text{
+    opacity: 70%;
 }
 
 .boxes{
     color: white;
     padding: 44px;
+    margin: 20px;
+
 }
 
 .boxes2{
@@ -114,6 +127,13 @@ p{
    
 }
 
+#pre-release{
+    width: 350px;
+    height: 350px;
+    align-items: center;
+    display:block;
+    margin:auto;
+}
 
 iframe {
   display: block;
@@ -184,7 +204,54 @@ iframe {
 
 
 
+
+
+
+
+/* Style all font awesome icons */
+.fa {
+  padding: 8px;
+  font-size: 1rem;  
+  width: 46px;
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+  
+}
+
+/* hover effect  */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Insta */
+.fa-instagram {
+  color: white; 
+}
+
+/* bandcamp */
+.fa-bandcamp {
+  color: white; 
+}
+
+/* YouTube */
+.fa-youtube {
+  color: white; 
+}
+
+
+
 /* this is Contact page specific styles */
+
+div.fa-links {
+    
+    display: block;
+    font-size: 32px;
+    text-align: center;
+  padding-top: -42px;
+}
 
 .contact-container{
     
@@ -228,6 +295,12 @@ box-sizing: border-box;
 .contact-inputs:focus{
     border: 2px solid #008000;
 }
+
+.contact-inputs:placeholder{
+    color: lightgray;
+}
+
+
 
 .contact-inputs:placeholder{
     color: lightgray;
