@@ -37,6 +37,10 @@ a.fa:link {
     color: #ececec;
 }
 
+a.home:link{
+    color: white
+}
+
 /* mouse over link */
 a:hover {
   color: green;
@@ -44,6 +48,10 @@ a:hover {
 
 a:link:hover {
   color: #01d401;
+}
+
+a.home:link:hover {
+    color: #01d401;
 }
 
 /* Nav Bar Styles */
