@@ -88,7 +88,7 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Haettenschweiler;
+    font-family: Haettenschweiler !Important;
     font-size: 48px;
     
 }
@@ -97,7 +97,7 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Skriik;
+    font-family: Skriik !Important;
 }
 
 h3{ color:white;
