@@ -1,11 +1,44 @@
+@font-face{
+    font-family: Break-on-Through;
+    src: url(Fonts/Breakonthrough.ttf); 
+    font-family: Skriik;
+    src: url(Fonts/Skriik.ttf)
+    
+}
+
 .title {
     color: green;
 }
 
-html{
-    background-image: url(Photos/beef-bg-texture-1.jpg);
+
+/* these are the backgrounds*/
+.home{
+    background-image: url(Photos/beef-bg-2.jpg);
     background-size:cover;
 }
+
+.epk{
+    background-image: url(Photos/beef-bg-3.jpg);
+    background-size:cover;
+}
+
+.contact-pg{
+    background-image: url(Photos/beef_loox.jpg);
+    background-size: cover;
+}
+
+/* end section */
+
+a:link {
+    color: rebeccapurple;
+}
+
+/* mouse over link */
+a:hover {
+  color: green;
+}
+
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -24,11 +57,14 @@ ul li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-family: Skriik;
 }
 
 ul li a:hover {
   background-color: #111111;
 }
+
+/* all body relevent styles */
 #contents{
     
     padding: 10px;
@@ -42,7 +78,8 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Impact;
+    font-family: Haettenschweiler;
+    font-size: 48px;
     
 }
 h2{
@@ -50,7 +87,7 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Haettenschweiler;
+    font-family: Skriik;
 }
 
 h3{ color:white;
@@ -58,23 +95,30 @@ h3{ color:white;
     justify-content: center;
     align-items: center;
     font-size: medium;
-    font-family: times;
 }
 
+p{
+    text-align: center;
+
+    
+}
 
 .boxes{
     color: white;
-    font-family:arial;
+    padding: 44px;
 }
+
+.boxes2{
+    color: white;
+    padding: 44px;
+   
+}
+
 
 iframe {
   display: block;
   margin: 0 auto; /* centers the iframe horizontally */
-}
-.video {
-    width: 60%;
-    padding:30px;
-   
+    
 }
 
 .centre{
@@ -84,9 +128,107 @@ iframe {
 }
 
 
+#photos{
+    margin: 10px;
+    width: 10x;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
 
 #footer{
     color:white;
    
+}
+
+
+
+
+
+/* this is EPK page specific styles */
+
+
+
+/* this is Contact page specific styles */
+
+.contact-container{
+    
+height: 65vh;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+box-sizing: border-box;
+
+}
+
+
+.contact-box{
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    resize: vertical;
+}
+
+.contact-inputs{
+    width:400;
+    height: 50px;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    color: #666;
+    border-radius: 50px;
+}
+
+.contact-box textarea{
+    height: 131px;
+    width: 400;
+    padding-top:15px;
+    border-radius: 20px;
+    resize: vertical;
+}
+
+
+
+.contact-inputs:focus{
+    border: 2px solid #008000;
+}
+
+.contact-inputs:placeholder{
+    color: lightgray;
 }
