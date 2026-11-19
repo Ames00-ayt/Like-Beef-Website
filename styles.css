@@ -13,17 +13,17 @@
 
 /* these are the backgrounds*/
 .home{
-    background-image: url(Photos/beef-bg-2.jpg);
+    background-image: url(beef-bg-2.jpg);
     background-size:cover;
 }
 
 .epk{
-    background-image: url(Photos/beef-bg-3.jpg);
+    background-image: url(beef-bg-3.jpg);
     background-size:cover;
 }
 
 .contact-pg{
-    background-image: url(Photos/beef_loox.jpg);
+    background-image: url(beef_loox.jpg);
     background-size: cover;
 }
 
