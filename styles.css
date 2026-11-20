@@ -1,16 +1,19 @@
 @font-face{
     font-family: Break-on-Through;
     src: url(Fonts/Breakonthrough.ttf) format("truetype");
-    font-display: swap;
-
+    font-display: swap; 
 }
-  
 
-@fontface{
+@font-face{
     font-family: Skriik;
     src: url(Fonts/Skriik.ttf) format("truetype");
+    font-display: swap;   
+}
+
+@font-face{
+    font-family: Haettenschweiler;
+    src: url(Fonts/Haettenschweiler.ttf) format("truetype");
     font-display: swap;
-    
 }
 
 .title {
