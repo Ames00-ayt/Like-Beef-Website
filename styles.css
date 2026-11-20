@@ -1,6 +1,6 @@
 @font-face{
     font-family: Break-on-Through;
-    src: url(Fonts/Breakonthrough.ttf) format("truetype")
+    src: url(Fonts/Breakonthrough.ttf) format("truetype");
     font-display: swap;
 
 }
@@ -8,7 +8,7 @@
 
 @fontface{
     font-family: Skriik;
-    src: url(Fonts/Skriik.ttf) format("truetype")
+    src: url(Fonts/Skriik.ttf) format("truetype");
     font-display: swap;
     
 }
