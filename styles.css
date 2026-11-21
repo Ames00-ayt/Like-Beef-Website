@@ -25,16 +25,19 @@
 .home{
     background-image: url(Photos/beef-bg-2.jpg);
     background-size:cover;
+    background-color: black;
 }
 
 .epk{
     background-image: url(Photos/beef-bg-3.jpg);
     background-size:cover;
+    background-color: black;
 }
 
 .contact-pg{
     background-image: url(Photos/beef_loox.jpg);
     background-size: cover;
+    background-color: black;
 }
 
 /* Link Styles */
