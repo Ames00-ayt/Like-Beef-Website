@@ -12,7 +12,7 @@
 
 @font-face{
     font-family: Haettenschweiler;
-    src: url(HATTEN.TTF) format("truetype");
+    src: url(Fonts/HATTEN.TTF) format("truetype");
     font-display: swap;
 }
 
@@ -31,7 +31,6 @@
 .epk{
     background-image: url(Photos/beef-bg-3.jpg);
     background-size:cover;
-    background-color: black;
 }
 
 .contact-pg{
@@ -39,6 +38,7 @@
     background-size: cover;
     background-color: black;
 }
+
 
 /* Link Styles */
 
@@ -50,7 +50,6 @@ a.fa:link {
     color: #ececec;
 }
 
-
 /* mouse over link */
 a:hover {
   color: green;
@@ -59,6 +58,7 @@ a:hover {
 a:link:hover {
   color: #01d401;
 }
+
 
 /* Nav Bar Styles */
 
@@ -101,8 +101,8 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Haettenschweiler !Important;
-    font-size: 48px;
+    font-family: Skriik;
+    font-size: 59px;
     
 }
 h2{
@@ -110,7 +110,7 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Skriik !Important;
+    font-family: Skriik;
 }
 
 h3{ color:white;
@@ -122,6 +122,7 @@ h3{ color:white;
 
 p{
     text-align: center;
+    color: white;
 }
 
 .fade-text{
@@ -129,10 +130,16 @@ p{
 }
 
 .boxes{
-    color: white;
+    
     padding: 44px;
     margin: 20px;
 
+}
+
+#boxes-bg{
+
+  background-color: rgba(0, 0, 0, 0.6);
+  
 }
 
 .boxes2{
@@ -230,7 +237,6 @@ iframe {
   text-align: center;
   justify-content: center;
   text-decoration: none;
-  
 }
 
 /* hover effect  */
@@ -255,6 +261,7 @@ iframe {
   color: white; 
 }
 
+
 .fa-links-nav{
     
   list-style-type: none;
@@ -265,7 +272,6 @@ iframe {
   background-color: #000000;
   float:right;
 }
-
 
 
 /* this is Contact page specific styles */
@@ -320,12 +326,6 @@ box-sizing: border-box;
 .contact-inputs:focus{
     border: 2px solid #008000;
 }
-
-.contact-inputs:placeholder{
-    color: lightgray;
-}
-
-
 
 .contact-inputs:placeholder{
     color: lightgray;
